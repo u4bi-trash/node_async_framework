@@ -1,8 +1,8 @@
 var restify = require('restify');
 
 function respond(req, res, next){
-	res.send('hello'+ req.params.name);
-	next();
+    res.send('hello'+ req.params.name);
+    next();
 }
 
 var server = restify.createServer();
