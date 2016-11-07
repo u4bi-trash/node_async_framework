@@ -6,6 +6,7 @@
     },
     "dependencies": {
         "restify": "*",
+		"fs": "*",
         "async": "*"
     }
 }
